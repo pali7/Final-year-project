@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_8sdp"
+    tools:context=".fragments.AboutUsFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Go Shop was founded as a fashion retailer in Nepal in 2019, but changed to a general marketplace strategy and business model in 2019 when it also launched operations in Indian and China.\n\nIn September 2019, Go Shop secured EUR50 million in its Series B funding in order to expand operations in Pakistan, Bangladesh and Myanmar. CDC Group, a state-owned Development Finance Institution (DFI) in the UK[5], invested €20 million alongside a €30 million investment from Go Shop existing majority shareholder, Asia Internet Holdings.\n\nIn July 2016, Go Shop Group acquired Kaymu, a consumer-to-consumer online marketplace in South Asia, and with the acquisition began operations in Sri Lanka and Nepal."
+        android:textSize="@dimen/_10ssp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Our Location"
+        android:textSize="@dimen/_11ssp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:scaleType="center"
+        android:src="@drawable/ic_location" />
+
+</LinearLayout>
